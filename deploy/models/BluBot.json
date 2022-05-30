@@ -1,0 +1,89 @@
+{
+	"intents": [{
+			"tag": "Intro",
+			"patterns": ["hi",
+				"how are you",
+				"is anyone there",
+				"hello",
+				"whats up",
+				"hey",
+				"yo",
+				"listen",
+				"please help me",
+				"i belong to",
+				"i am from",
+				"hey ya",
+				"talking to you for first time"
+			],
+			"responses": ["Hello! how can i help you ?"],
+			"context_set": ""
+		},
+		{
+			"tag": "Exit",
+			"patterns": ["thank you",
+				"thanks",
+				"cya",
+				"see you",
+				"later",
+				"see you later",
+				"goodbye",
+				"i am leaving",
+				"have a Good day",
+				"you helped me",
+				"thanks a lot",
+				"thanks a ton",
+				"you are the best",
+				"great help",
+				"too good"
+			],
+			"responses": ["I hope I was able to assist you, Good Bye"],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Bot",
+			"patterns": ["what is your name",
+				"who are you",
+				"name please",
+				"when are your hours of opertions",
+				"what are your working hours",
+				"hours of operation",
+				"working hours",
+				"hours"
+			],
+			"responses": ["I am your virtual learning assistant"],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Profane",
+			"patterns": ["what the hell",
+				"bloody stupid bot",
+				"do you think you are very smart",
+				"screw you",
+				"i hate you",
+				"you are stupid",
+				"jerk",
+				"you are a joke",
+				"useless piece of shit"
+			],
+			"responses": ["Please use respectful words"],
+			"context_set": ""
+		},
+		
+		{
+			"tag": "others",
+			"patterns": [
+			  "The accident occurred at the time an employee of the partner company SF carried out unloading operation of bladder bags. By cutting the bag for charging of the boom into the silo truck's delivery mouth, the inner plastic bag surrounding the contents abruptly dropped and a large amount of material fell onto the cone (funnel). The cone fell over and the injured man stood with his leg pressed between him and the body guard of the scaffold. There was external medical attention and it was verified that there was no fracture",
+			  "The worker Yaranga while working with barretilla in Stop 996, Level 3300. While unloading metal mesh, on the basket of an ampoloader with his operator Juan barretilla is embedded on safety boot, reacting immediately the worker removing the limb with force and managing to release the foot, but producing a wound on the right foot.",
+			  "In Circumstances that the staff was performing the rhyming of caving HW, the 1.5 m HW pipe was suspended Approximately 5 cm from the floor, the assistant placed the stilson key No. 36 on the HW pipe to fit the pipe at a height of 10 cm from the base of the rod holder, which the operator operates the chuck to slide this back, causing the pipe to slide causing the tip of the fourth finger of the assistant's right hand to be caught between the stilson key and the base of the rod holder. At the time of the event the collaborator used all his Epps.",
+			  "When performing the Doosan RB-10 equipment hammer repair, the employee tries to remove the suspenders with the support of a 25-pound rope; At the moment of receiving the blow the brace or bolt causes a splinter to be released, expelling and impacting on the lower left limb causing metal embedding in it. The collaborator did not notice immediately.",
+			  "When using the griff wrench to unscrew the rod from the probe the key came to move by pressing the employee's finger against the probe.",
+			  "During the execution of the area cleaning activity using a hoe, the employee hit against a fixed metal structure in the area, coming to reach the abdomen on the left.",
+			  "Being 04:20 p.m. approximately, in the Nv. 1880, CX-781. Mr. Kevin helper of Jumbo 55, removed the drill rod that was in the drilling hole, instants that breaks the chain of subjection of the table of the drilling machine, sliding down achieving rubbing the index finger of the left hand, causing the injury."
+			],
+			"responses": ["others"],
+			"context_set": ""
+		}
+	]
+}
