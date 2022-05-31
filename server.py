@@ -188,8 +188,8 @@ def predict_from_dl_model(data):
 if __name__ == '__main__':
     #test_predict()
     # if running on docker uncomment below line
-    port = int(os.environ.get("PORT", 5000))
-    app.run(port=port,host='0.0.0.0', debug=False)
+    #port = int(os.environ.get("PORT", 5000))
+    #app.run(port=port,host='0.0.0.0', debug=False)
 
     # if running standalone uncomment below line and comment above line
-    #app.run(port=5000,host='127.0.0.1', debug=True)
+    app.run(port=5000,host='127.0.0.1', debug=True)
